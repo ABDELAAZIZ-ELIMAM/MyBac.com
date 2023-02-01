@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ALL.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div class="styleall">
+            <input type="number" placeholder="الدورة الاولى"required id="continu1"class="test">
+            <input type="number" placeholder="الدورة الثانية"required id="continu2"class="test">
+            <input type="number" placeholder="الجهوي"required id="regional"class="test">
+            <input type="number" placeholder="الوطني"required id="national"class="test"><br><br>
+            <button type="submit" onclick="calcull()">=</button>
+            <script>
+                function calcull(){
+                var Continu=document.getElementById('continu1').value;
+                var Continu2=document.getElementById('continu2').value;
+                var Regional=document.getElementById('regional').value;
+                var National=document.getElementById('national').value;
+             
+              
+             var da1=(((Continu*1)+(Continu2*1))/2);
+             var dd=alert(((da1*1)+(Regional*1)+(National*2))/4);
+            }
+                </script>
+        </div>
+    </form>
+</body>
+</html>

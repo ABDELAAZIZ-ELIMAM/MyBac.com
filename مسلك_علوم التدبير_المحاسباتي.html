@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="stylee.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <div class="style">
+            <h1>أَدْخِلْ النُقَطْ</h1>
+            <input type="number" placeholder="اللغة العربية" name="" id="arab2" class="test"><br><br>
+            <input type="number" placeholder="اللغة الفرنسية" name="" id="france3"class="test"><br><br>
+            <input type="number" placeholder="التربية الإسلامية" name="" id="islamic2"class="test"><br><br>
+            <input type="number" placeholder="التاريخ والجغرافيا" name="" id="geo2"class="test"><br><br>
+            <input type="number" placeholder="الرياضيات" name="" id="math4"class="test"><br><br>
+            <input type="number" placeholder="المحاسبة والرياضيات المالية" name="" id="mohassaba_math_many6"class="test"><br><br>
+            <input type="number" placeholder="الاقتصاد العام والإحصاء" name="" id="eco_general3"class="test"><br><br>
+            <input type="number" placeholder="الاقتصاد والتنظيم الإداري للمقاولات" name="" id="eco_org6"class="test"><br><br>
+            <input type="number" placeholder="الفلسفة" name="" id="phili2"class="test"><br><br>
+            <input type="number" placeholder="اللغة الإنجليزية" name="" id="englich2"class="test"><br><br>
+        <input type="number" placeholder="القانون" name="" id="droit4"class="test"><br><br>
+        <input type="number" placeholder="معلوميات التدبير" name="" id="informatique4"class="test"><br><br>
+        <input type="number" placeholder="التربية البدنية" name="" id="sport4"class="test"><br><br>
+        <input type="number" placeholder="المواظبة والسلوك" name="" id="action1"class="test"><br><br>
+        <label id="lab"></label>
+        <button type="submit" onclick="economier()">=</button>
+    </div>
+<script>
+    function economier(){
+        var arab=document.getElementById('arab2').value;
+        var france=document.getElementById('france3').value;
+        var islamic=document.getElementById('islamic2').value;
+        var geo=document.getElementById('geo2').value;
+        var math=document.getElementById('math4').value;
+        var mohassaba=document.getElementById('mohassaba_math_many6').value;
+        var eco_gen=document.getElementById('eco_general3').value;
+        var eco_org=document.getElementById('eco_org6').value;
+        var phili=document.getElementById('phili2').value;
+        var englich=document.getElementById('englich2').value;
+        var droit=document.getElementById('droit4').value;
+        var informat=document.getElementById('informatique4').value;
+        var sport=document.getElementById('sport4').value;
+        var action=document.getElementById('action1').value;
+        var conta=alert(((arab*2)+(france*3)+(islamic*2)+(geo*2)+(math*4)+(mohassaba*6)+(eco_gen*3)+
+        (eco_org*6)+(phili*2)+(droit*4)+(informat*4)+(sport*4)+(action*1))/45)
+    }
+</script>
+    </form>
+</body>
+</html>

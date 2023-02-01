@@ -1,0 +1,88 @@
+
+.styleall input {
+    width: 320px;
+    height: 56px;
+    background: transparent;
+    border-radius: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px rgb(204, 127, 75) solid;
+    font-size: 16px;
+    letter-spacing: 1.8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.test{
+    
+    font-size: 20px;
+   
+}
+.styleall {
+    width: 337px;
+    height: 400px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%);
+    position: absolute;
+    top: 51px;
+    left: 504px;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+   
+   
+}
+button {
+    width: 335px;
+    height: 51px;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px rgb(26, 65, 14) solid;
+    background-color: rgb(214, 212, 212);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+
+.styleall button:hover {
+    width: 320px;
+    height: 56px;
+    background: rgb(240, 176, 0);
+    border-radius: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px rgb(204, 127, 75) solid;
+    font-size: 16px;
+    letter-spacing: 1.8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+h2 {
+    color: rgb(214, 214, 214);
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(img.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+body{
+    background-image: url(img.png);
+}

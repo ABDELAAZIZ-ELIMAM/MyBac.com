@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="style">
+    <h1>أَدْخِلْ النُقَطْ</h1>
+    <input type="number" id="french4" placeholder="اللغة الفرنسية"class="test"><br>
+    <input type="number" id="math1" placeholder="الرياضيات"class="test"><br>
+    <input type="number" id="islamic2" placeholder="التربية الإسلامية"class="test">   <br>   
+    <input type="number" id="arab4" name="" placeholder="اللغة العربية"class="test"><br>
+       <input type="number" id="english4" placeholder="اللغة الإنجليزية"class="test"><br>
+       <input type="number" id="geogra3" placeholder="التاريخ والجغرافيا"class="test"><br>
+       <input type="number" id="philo3" placeholder="الفلسفة"class="test"><br>
+       <input type="number" id="sport4" placeholder="التربية البدنية"class="test"><br>
+       <input type="number" id="action" placeholder="المواظبة والسلوك"class="test">  <br>  
+       <button type="submit" onclick="calcule_adab()">=</button>
+   </div> 
+
+
+   <script>
+       function calcule_adab(){
+       var ar1=document.getElementById('french4').value;
+       var ar2=document.getElementById('math1').value;
+       var ar3=document.getElementById('islamic2').value;
+       var ar4=document.getElementById('arab4').value;
+       var ar5=document.getElementById('english4').value;
+       var ar6=document.getElementById('geogra3').value;
+       var ar7=document.getElementById('philo3').value;
+       var ar8=document.getElementById('sport4').value;
+       var ar9=document.getElementById('action').value;
+      var dr= alert(((ar1*4)+(ar2*1)+(ar3*2)+(ar4*4)+(ar5*4)+(ar6*3)+(ar7*3)+(ar8*4)+(ar9*1))/26);
+       }
+   </script>
+</body>
+</html>

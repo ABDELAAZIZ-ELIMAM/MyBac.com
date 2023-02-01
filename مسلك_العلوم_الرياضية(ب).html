@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+    
+        <div class="style">
+            <h1>أَدْخِلْ النُقَطْ</h1>
+        <input type="number" placeholder="اللغة العربية" name="" id="arab2" class="test"><br>
+        <input type="number" placeholder="اللغة الفرنسية" name="" id="frnce4"class="test"><br>
+        <input type="number" placeholder="التربية الإسلامية" name="" id="islamiq2"class="test"><br>
+        <input type="number" placeholder="الرياضيات" name="" id="math9"class="test"><br>
+        <input type="number" placeholder="الفيزياء والكيمياء" name="" id="pc7"class="test"><br>
+        <input type="number" placeholder="علوم المهندس" name="" id="geneour3"class="test"><br>
+        <input type="number" placeholder="الفلسفة" name="" id="philos2"class="test"><br>
+        <input type="number" placeholder="اللغة الإنجليزية" name="" id="englich2"class="test"><br>
+        <input type="number" placeholder="الترجمة" name="" id="traduction4"class="test"><br>
+        <input type="number" placeholder=" التربية البدنية" name="" id="sport4"class="test"><br>
+        <input type="number" placeholder="المواظبة والسلوك" name="" id="action"class="test"><br>
+        <button type="submit" onclick="sience_b()">=</button>
+    </div>
+    <script>
+        function sience_b(){
+        var arab=document.getElementById('arab2').value;
+        var france=document.getElementById('frnce4').value;
+        var islamic=document.getElementById('islamiq2').value;
+        var math=document.getElementById('math9').value;
+        var pc=document.getElementById('pc7').value;
+        var geniour=document.getElementById('geneour3').value;
+        var phili=document.getElementById('philos2').value;
+        var englich=document.getElementById('englich2').value;
+        var traduction=document.getElementById('traduction4').value;
+        var sport=document.getElementById('sport4').value;
+        var action=document.getElementById('action').value;
+
+       var cal=alert(((arab*2)+(france*4)+(islamic*2)+(math*9)+
+       (pc*7)+(geniour*3)+(phili*2)+(englich*2)+(traduction*4)+
+       (sport*4)+(action*1))/40)
+    }
+        </script>
+  
+    
+</body>
+</html>

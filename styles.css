@@ -1,0 +1,110 @@
+.style input{
+    border: 0;
+    background: none;
+   
+    display: flex;
+    margin: 2px auto;
+    text-align: center;
+    border: 2px solid #be6804;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+
+}
+body{
+    background-color: rgb(185, 214, 223);
+}
+.test{
+    
+    font-size: 20px;
+   
+}
+
+.style button[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
+
+.style {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #000608;
+    text-align: center;
+    margin-top: 100px;
+}
+button:hover[type="submit" i] {
+    appearance: auto;
+    background: #2ecc71;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(39, 185, 88), rgb(59, 59, 59));
+    color: -internal-light-dark(black, white);
+    padding: 15px 100px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    transition: 0.25s;
+    cursor: pointer;
+    
+}
+input:hover[type="number" i] {
+    align-items: flex-start;
+    text-align: center;
+   
+    border: 2px solid #07ee7a;
+    padding: 16px 16px;
+    border-width: 1px;
+   
+  
+    
+}
+
+h1{
+    color: rgb(240, 238, 238);
+    text-shadow: #0d0347;
+    font-size: 35px;
+    
+}
+#lab{
+    color: #07ee7a;
+    font-size: 45px;
+}
+.ca{
+    
+        position:relative;
+        width:300px;
+        min-height:100px;
+        margin-top:50px;
+        border:1px solid #666;
+        background-color:#fff;
+        background-repeat:no-repeat;
+        background-position:20px 30px;
+    
+}

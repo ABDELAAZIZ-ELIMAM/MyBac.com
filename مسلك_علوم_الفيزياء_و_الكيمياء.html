@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+    
+        <div class="style">
+            <h1>أَدْخِلْ النُقَطْ</h1>
+            <input type="number" placeholder="علوم الحياة والأرض" name="" id="svt"class="test"><br>
+            <input type="number" placeholder="الفيزياء والكيمياء" name="" id="pc"class="test"><br>
+            <input type="number" placeholder="الرياضيات" name="" id="math"class="test"><br>
+            <input type="number" placeholder="اللغة العربية" name="" id="arab"class="test"><br>
+            <input type="number" placeholder="للغة الإنجليزية" name="" id="englich"class="test"><br>
+            <input type="number" placeholder="الفلسفة" name="" id="phili"class="test"><br>
+            <input type="number" placeholder="اللغة الفرنسية" name="" id="france"class="test"><br>
+            <input type="number" placeholder="التربية الإسلامية" name="" id="islamic"class="test"><br>
+            <input type="number" placeholder="التربية البدنية" name="" id="sport"class="test"><br>
+            <input type="number" placeholder="المواظبة والسلوك" name="" id="action"class="test"><br>
+        <button type="submit" onclick="calc()">=</button>
+    </div>
+        <script>
+            function calc(){
+            var sv=document.getElementById('svt').value;
+            var phisique=document.getElementById('pc').value;
+            var mathh=document.getElementById('math').value;
+            var arabb=document.getElementById('arab').value;
+            var englichh=document.getElementById('englich').value;
+            var philii=document.getElementById('phili').value;
+            var francee=document.getElementById('france').value;
+            var islamicc=document.getElementById('islamic').value;
+            var sportt=document.getElementById('sport').value;
+            var actionn=document.getElementById('action').value;
+
+          var fa=alert(((sv*5)+(phisique*7)+(mathh*7)+
+            (arabb*2)+(englichh*2)+(philii*2)+(francee*4)
+            +(islamicc*2)+(sportt*4)+(actionn*1))/36);
+        }
+            </script>
+  
+    
+</body>
+</html>
